@@ -7,7 +7,7 @@ addons:
   sonarcloud:
     organization: "gourav-bhardwaj"
     token:
-      secure: "SONAR_TOKEN"
+      secure: $SONAR_TOKEN
 
 script:
   - ./gradlew sonarqube

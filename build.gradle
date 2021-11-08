@@ -26,8 +26,5 @@ test {
 sonarqube {
   properties {
     property "sonar.projectKey", "gourav-bhardwaj_sonarcloud-with-travis"
-    property "sonar.organization", "gourav-bhardwaj"
-    property "sonar.host.url", "https://sonarcloud.io"
-    property "sonar.login", "$SONAR_TOKEN"
   }
 }
